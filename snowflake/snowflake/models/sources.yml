@@ -1,0 +1,10 @@
+version: 2
+sources:
+    - name: snowflake  # Source name
+      database: superside  # Replace with your Snowflake database name
+      schema: public  # Replace with the schema containing DIM_PROJECT
+      tables:
+      - name: DIM_PROJECT  # Table name in Snowflake
+        description: project dimention
+      - name: STG_CUSTOMER_ENGAGEMENT
+        description: staging the customer engagement data
