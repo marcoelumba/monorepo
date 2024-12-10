@@ -1,0 +1,17 @@
+2022-09-21 02:32:36,429 - logger - INFO - Data loader object Initialized
+2022-09-21 02:33:29,502 - logger - INFO - Data loader object Initialized
+2022-09-21 02:34:20,785 - logger - INFO - Data loader object Initialized
+2022-09-21 10:13:41,043 - logger - INFO - Data extractor object Initialized
+2022-11-08 11:42:32,590 - logger - INFO - Data extractor object Initialized
+2022-11-08 11:48:57,151 - logger - INFO - Data extractor object Initialized
+2024-12-08 14:41:46,129 - logger - INFO - Data extractor object Initialized
+2024-12-08 15:52:54,354 - visions.backends - INFO - Pandas backend loaded 2.2.2
+2024-12-08 15:52:54,355 - visions.backends - INFO - Numpy backend loaded 1.26.4
+2024-12-08 15:52:54,356 - visions.backends - INFO - Pyspark backend NOT loaded
+2024-12-08 15:52:54,356 - visions.backends - INFO - Python backend loaded
+2024-12-09 06:56:26,328 - logger - INFO - Data extractor object Initialized
+2024-12-09 06:56:35,269 - visions.backends - INFO - Pandas backend loaded 2.2.2
+2024-12-09 06:56:35,271 - visions.backends - INFO - Numpy backend loaded 1.26.4
+2024-12-09 06:56:35,271 - visions.backends - INFO - Pyspark backend NOT loaded
+2024-12-09 06:56:35,271 - visions.backends - INFO - Python backend loaded
+2024-12-09 10:07:44,769 - logger - INFO - Data extractor object Initialized
