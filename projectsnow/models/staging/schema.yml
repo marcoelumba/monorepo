@@ -1,0 +1,49 @@
+
+version: 2
+
+models:
+  - name: stg_current_staff
+    description: "Staging current staff"
+    +schema: staging
+    columns:
+      - name: ingested_date
+        data_tests:
+          - not_null
+      - name: ingested_from
+        data_tests:
+          - not_null
+  - name: stg_staff_mobility
+    description: "Staging staff mobility"
+    +schema: staging
+    columns:
+      - name: unique_key
+        data_tests:
+          - not_null
+          - unique
+      - name: ingested_date
+        data_tests:
+          - not_null
+  - name: stg_all_staff
+    description: "Staging all staff"
+    +schema: staging
+    columns:
+      - name: unique_key
+        data_tests:
+          - not_null
+          - unique
+      - name: staff_id
+        data_tests:
+          - not_null
+      - name: ingested_date
+        data_tests:
+          - not_null
+
+  # - name: reverse_geocoding
+  
+  #   # Document within the same codebase
+  #   description: My transformation written in Python
+    
+  #   # Configure in ways that feel intuitive and familiar
+  #   config:
+  #     materialized: view
+  #     tags: ['python']  

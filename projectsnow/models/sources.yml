@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: superside_raw
+    database: superside
+    schema: superside_raw
+    tables:
+      - name: hr_current_staff
+      - name: hr_staff_mobility
+      - name: all_staff

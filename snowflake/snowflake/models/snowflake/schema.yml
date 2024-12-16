@@ -1,0 +1,17 @@
+
+version: 2
+
+models:
+  - name: customer_engagement_summary
+    description: "Customer engagement summary"
+    
+
+  # - name: reverse_geocoding
+  
+  #   # Document within the same codebase
+  #   description: My transformation written in Python
+    
+  #   # Configure in ways that feel intuitive and familiar
+  #   config:
+  #     materialized: view
+  #     tags: ['python']  
