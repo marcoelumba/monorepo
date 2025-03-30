@@ -141,9 +141,10 @@ This project tried to implement the following core tasks
 - A data ingestion tool (Airbyte): Connects to various data sources and automates the extraction and loading of raw data into the target systems (e.g., PostgreSQL or Snowflake) as part of the ETL/ELT pipeline.
 
 ___
-
-## **Example project**
+<div style="background-color: lightgreen; padding: 10px; border-radius: 5px;">
+<strong>Green Box:</strong> ## **Example project**
 This [Project](/snowflake/snowflake/README.md) showcases a modern ETL workflow for integrating client engagement data from Google Sheets into Snowflake for analysis. The process begins with data ingestion into PostgreSQL using Python, where mapping tables are created to standardize inconsistencies. dbt transforms the raw data into a clean staging table, which is then transferred to Snowflake using Airbyte. Finally, the data is joined with the `DIM_PROJECT` table to create a comprehensive `customer_engagement_summary` table, ready for actionable insights
+</div>
 
 > [!NOTE]
 > Highlights information that users should take into account, even when skimming.
@@ -159,3 +160,4 @@ This [Project](/snowflake/snowflake/README.md) showcases a modern ETL workflow f
 
 > [!CAUTION]
 > Negative potential consequences of an action.
+
