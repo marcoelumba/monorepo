@@ -161,10 +161,18 @@ This [Project](/snowflake/snowflake/README.md) showcases a modern ETL workflow f
 > [!CAUTION]
 > Negative potential consequences of an action.
 
-<svg width="100%" height="50">
-  <rect width="100%" height="50" fill="lightgreen"/>
-  <text x="10" y="30" font-size="20" fill="black">
-    **Example project**
-  This [Project](/snowflake/snowflake/README.md) showcases a modern ETL workflow for integrating client engagement data from Google Sheets into Snowflake for analysis. The process begins with data ingestion into PostgreSQL using Python, where mapping tables are created to standardize inconsistencies. dbt transforms the raw data into a clean staging table, which is then transferred to Snowflake using Airbyte. Finally, the data is joined with the `DIM_PROJECT` table to create a comprehensive `customer_engagement_summary` table, ready for actionable insights
-  </text>
-</svg>
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
