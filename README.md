@@ -142,7 +142,7 @@ This project tried to implement the following core tasks
 
 ___
 <div style="background-color: lightgreen; padding: 10px; border-radius: 5px;">
-## **Example project**
+**Example project**
 This [Project](/snowflake/snowflake/README.md) showcases a modern ETL workflow for integrating client engagement data from Google Sheets into Snowflake for analysis. The process begins with data ingestion into PostgreSQL using Python, where mapping tables are created to standardize inconsistencies. dbt transforms the raw data into a clean staging table, which is then transferred to Snowflake using Airbyte. Finally, the data is joined with the `DIM_PROJECT` table to create a comprehensive `customer_engagement_summary` table, ready for actionable insights
 </div>
 
